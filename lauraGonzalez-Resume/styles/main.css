@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../fonts/montserrat/regular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat/regular/montserrat-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat/regular/montserrat-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/montserrat/regular/montserrat-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat/regular/montserrat-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "coves_light";
+  src: url('../fonts/coves/light/coves_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/coves/light/coves_light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/coves/light/coves_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/coves/light/coves_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/coves/light/coves_light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "coves_bold";
+  src: url('../fonts/coves/bold/coves_bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/coves/bold/coves_bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/coves/bold/coves_bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/coves/bold/coves_bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/coves/bold/coves_bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #2a303b;
+  font-size: 1.6rem;
+  color: white;
+}
+
+a {
+  color: #00c5c4;
+}
+
+p {
+  font-family: "Montserrat-Regular";
+  line-height: 26px;
+}
+
+section {
+  overflow: hidden;
+  padding-bottom: 5rem; 
+}
+
+.header {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: #00c5c4;
+  font-family: "coves_bold";
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  font-family: "coves_light";
+}
+
+.header h4 {
+  color: #00c5c4;
+  font-weight: 400;
+}
+
+.main-container {
+  padding: 0 40px;
+}
+
+.section-title,
+.section-subtitle {
+	text-transform: uppercase;
+}
+
+.section-title {
+  border-bottom: 1px solid hsl(0, 0%, 88%);
+  font-family: "coves_light";
+  font-size: 1.5rem;
+  margin-bottom: 75px;
+  padding-bottom: 27px;
+  position: relative;
+  text-align: center;
+}
+
+.section-title::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #00c5c4;
+  /* border-radius: 50%; */
+  bottom: 0;
+  transform: translateY(50%);
+}
+
+.section-title h2 {
+  color: #00c5c4;
+  margin: 10px 0;
+}
+
+.section-subtitle {
+	background: #00c5c4;
+	color: #003332;
+	font-family: "coves_light";
+	font-size: 1.8rem;
+	padding: 10px 20px;
+}
+
+.about-me__content {
+  width: 100%;
+}
+
+.about-me__img  img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.about-me__info-container{
+  width: 50%;
+  float: left;
+}
+
+.about-me__info {
+  border-bottom: 1px solid #e1e1e1;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.about-me__info-content {
+  padding-top: 40px;
+}
+
+.about-me__info h3,
+.about-me__info p {
+  display: inline-block;
+}
+
+.about-me__info h3 {
+  color: #00c5c4;
+  font-family: "coves_bold";
+  font-size: 1.8rem;
+}
+
+.about-me__info p {
+  font-size: 1.6rem;
+}
+
+.timeline {
+  margin-bottom: 50px;
+	padding: 25px 0 0;
+  position: relative;
+}
+
+.timeline::before {
+	content: "";
+  position: absolute;
+  height: calc(100% - 52px);
+  width: 1px;
+  background: #d1d1d1;
+  bottom: 0;
+  left: 8px;
+}
+
+.timeline li {
+  list-style: none;
+  min-height: 70px;
+  margin: 15px 0;
+	padding-left: 46px;
+	position: relative;
+}
+
+.timeline li::before {
+	content: "";
+  left: 0;
+  top: 4.5PX;
+  border-radius: 50%;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  background: #00c5c4;
+  border: 2px solid #00c5c4;
+}
+.row {
+	margin: 0;
+}
