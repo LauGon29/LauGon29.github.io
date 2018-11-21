@@ -50,6 +50,26 @@ section {
   padding-bottom: 5rem; 
 }
 
+section.my-skills {
+  padding-bottom: 0;
+}
+
+.btn-download {
+  background-color: #00c5c4;
+  color: white;
+  display: block;
+  margin: 0 auto 30px;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+}
+
+.btn-download:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .header {
   padding: 5rem 0;
   text-align: center;
