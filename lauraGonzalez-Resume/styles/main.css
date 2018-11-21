@@ -96,7 +96,7 @@ section.my-skills {
 }
 
 .main-container {
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .section-title,
@@ -120,7 +120,6 @@ section.my-skills {
   height: 12px;
   width: 12px;
   background: #00c5c4;
-  /* border-radius: 50%; */
   bottom: 0;
   transform: translateY(50%);
 }
@@ -147,10 +146,10 @@ section.my-skills {
   width: 100%;
 }
 
-.about-me__info-container{
+/* .about-me__info-container{
   width: 50%;
   float: left;
-}
+} */
 
 .about-me__info {
   border-bottom: 1px solid #e1e1e1;
@@ -214,4 +213,14 @@ section.my-skills {
 }
 .row {
 	margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 0 40px;
+  } 
+  .about-me__info-container{
+    width: 50%;
+    float: left;
+  }
 }
