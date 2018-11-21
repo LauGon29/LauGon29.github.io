@@ -44,8 +44,12 @@ a:hover {
   color: #00c5c4;
 }
 
+a,
 p {
   font-family: "Montserrat-Regular";
+}
+
+p {
   line-height: 26px;
 }
 
